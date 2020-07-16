@@ -15,6 +15,10 @@
 		7E1ACAE724128416002EE1A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1ACAE624128416002EE1A6 /* main.m */; };
 		7E1ACAF124128416002EE1A6 /* ChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1ACAF024128416002EE1A6 /* ChartDemoTests.m */; };
 		7E1ACAFC24128416002EE1A6 /* ChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1ACAFB24128416002EE1A6 /* ChartDemoUITests.m */; };
+		7E1ACB0B241284CB002EE1A6 /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1ACB0A241284CB002EE1A6 /* ChartView.m */; };
+		7E1ACB0E241299E3002EE1A6 /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1ACB0D241299E3002EE1A6 /* BezierCurveView.m */; };
+		7EAA752F2413D31800A439B5 /* ChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA752E2413D31800A439B5 /* ChartCell.m */; };
+		7EAA75322413D42900A439B5 /* XaxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA75312413D42900A439B5 /* XaxisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		7E1ACAF724128416002EE1A6 /* ChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1ACAFB24128416002EE1A6 /* ChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartDemoUITests.m; sourceTree = "<group>"; };
 		7E1ACAFD24128416002EE1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1ACB09241284CB002EE1A6 /* ChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		7E1ACB0A241284CB002EE1A6 /* ChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+		7E1ACB0C241299E3002EE1A6 /* BezierCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
+		7E1ACB0D241299E3002EE1A6 /* BezierCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		7EAA752D2413D31800A439B5 /* ChartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartCell.h; sourceTree = "<group>"; };
+		7EAA752E2413D31800A439B5 /* ChartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartCell.m; sourceTree = "<group>"; };
+		7EAA75302413D42900A439B5 /* XaxisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XaxisView.h; sourceTree = "<group>"; };
+		7EAA75312413D42900A439B5 /* XaxisView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XaxisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				7E1ACAE224128416002EE1A6 /* LaunchScreen.storyboard */,
 				7E1ACAE524128416002EE1A6 /* Info.plist */,
 				7E1ACAE624128416002EE1A6 /* main.m */,
+				7E1ACB09241284CB002EE1A6 /* ChartView.h */,
+				7E1ACB0A241284CB002EE1A6 /* ChartView.m */,
+				7E1ACB0C241299E3002EE1A6 /* BezierCurveView.h */,
+				7E1ACB0D241299E3002EE1A6 /* BezierCurveView.m */,
+				7EAA752D2413D31800A439B5 /* ChartCell.h */,
+				7EAA752E2413D31800A439B5 /* ChartCell.m */,
+				7EAA75302413D42900A439B5 /* XaxisView.h */,
+				7EAA75312413D42900A439B5 /* XaxisView.m */,
 			);
 			path = ChartDemo;
 			sourceTree = "<group>";
@@ -262,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1ACB0E241299E3002EE1A6 /* BezierCurveView.m in Sources */,
 				7E1ACADC24128415002EE1A6 /* ViewController.m in Sources */,
+				7EAA75322413D42900A439B5 /* XaxisView.m in Sources */,
+				7EAA752F2413D31800A439B5 /* ChartCell.m in Sources */,
 				7E1ACAE724128416002EE1A6 /* main.m in Sources */,
 				7E1ACAD924128415002EE1A6 /* AppDelegate.m in Sources */,
+				7E1ACB0B241284CB002EE1A6 /* ChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
